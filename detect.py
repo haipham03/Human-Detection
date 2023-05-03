@@ -25,7 +25,7 @@ def pushBBox(i, j, score, c, bbox):
     bbox.append((x, y, score, w, h))
 
 
-clf = joblib.load("person_final.pkl")
+clf = joblib.load("final_svm.pkl")
 
 
 orig = cv2.imread(args["image"])
