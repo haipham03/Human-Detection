@@ -13,7 +13,7 @@ args = parser.parse_args()
 pos_img_dir = args.pos
 neg_img_dir = args.neg
 
-clf = joblib.load('person_final.pkl')
+clf = joblib.load('final_svm.pkl')
 
 total_pos_samples = 0
 total_neg_samples = 0
